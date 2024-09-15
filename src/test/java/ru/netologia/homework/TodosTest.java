@@ -50,7 +50,6 @@ public class TodosTest {
         todos.add(simpleTask);
         todos.add(epic);
         todos.add(meeting);
-
         String query = "no task";
         Task[] expected = {};
         Task[] actual = todos.search(query);
